@@ -1,14 +1,24 @@
 .top-container {
-  background-color: #e3fdfd;
-  padding-top: 100px;
+  background-color: #EAF6F6;
+  padding-top: 80px;
 }
 
-.middle-container {}
+.middle-container {
+  margin : 100px 0;
+}
 
-.bottom-container {}
+.bottom-container {
+  background-color: #66BFBF;
+  padding : 50px 0 20px;
+}
 
 .pro {
   text-decoration: underline;
+}
+
+.intro{
+  width : 30%;
+  margin : auto;
 }
 
 .top-cloud {
@@ -20,7 +30,7 @@
 .bottom-cloud {
   position: absolute;
   left: 300px;
-  bottom: 200px;
+  bottom: 250px;
 }
 
 .skill-row{
@@ -47,11 +57,45 @@
   float: right;
 }
 
+
+.footer-link{
+  color : #11999E;
+
+}
+
+.copyright{
+  color : white;
+  font-size : 0.75rem;
+  padding : 20px 0;
+}
+
+.contact-msg{
+  width : 30%;
+  margin : 40px auto 60px;
+}
+
+.BUTTON_ILM{
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+color: #FFFFFF;
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+font-weight: 100;
+padding: 10px;
+background-color: #66BFBF;
+text-decoration: none;
+display: inline-block;
+cursor: pointer;
+text-align: center;
+}
+
 body {
   font-size: 1em;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  color : #40514E;
 }
 
 h1 {
@@ -66,6 +110,7 @@ h2 {
   font-size: 2rem;
   color: #66BFBF;
   font-weight: normal;
+  padding-bottom :10px;
 }
 
 h3 {
@@ -74,4 +119,28 @@ h3 {
 
 a {
   color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin : 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color : #EAF6F6;
+}
+
+hr{
+  /* border-style: none;
+  border-top-style: dotted;
+  border-width : 4px;
+  width: 3%;
+  color: #EAF6F6;
+  margin: 70px auto; */
+  border : dotted #EAF6F6 6px;
+  border-bottom: none;
+  width : 4%;
+  margin : 70px auto;
+}
+
+p{
+  line-height : 2;
 }
